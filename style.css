@@ -1,0 +1,217 @@
+/*--------------------base style sets-------------------- */
+
+:root {
+    --margin:10%;
+    --base-color:rgb(72, 150, 223);
+    --margin-list:20%;
+  }
+.navbar{
+    background-color:var(--base-color);
+}
+body {
+    /* background-image: url("testimg4.webp"); */
+    /* background-size: cover; */
+    /* background-color:black; */
+}
+.middle-container{
+    display: flex;
+    /* background-color: white; */
+    flex-direction: column;
+    margin-left: var(--margin);
+    margin-right: var(--margin);
+    margin-top: 20px;
+    padding: 2%;
+    /* border-style: groove; */
+    /* border-radius: 8px; */
+    /* border-width: 1px; */
+    /* margin-top: 50px; */
+}
+
+.leftcontainer{
+
+}
+  
+/* Titles */
+.titles{
+    display: flex;
+    background-color: white;
+    border-color: #ebe5e5;
+    /* border-style: groove; */
+    border-width: 1px;
+    margin-bottom: 10px;
+    justify-content: center;
+    border-radius: 8px;
+    padding: 20px;
+    padding-left:2px;
+    height: 20px;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: larger;
+    font-weight: 700;
+}
+.vacant{
+    height:50vh;
+}
+.footer{
+    height:60vh;
+    background-color: var(--base-color);
+}
+/*--------------------home page style sets-------------------- */
+
+/* ---Application closing soon--- */
+.closing-scroll 
+{
+    display: flex;
+    margin-top:10px;
+    margin-bottom: 100px;
+    /* height:250px; */
+    /* background: #ec1010; */
+    /* border-radius: 20px; */
+    padding-bottom: 20px;
+    overflow-x: scroll;
+    overflow-y:hidden;
+    scroll-snap-type: x mandatory;
+}
+.closingcards 
+{
+    display:flex;
+    height:200px;
+    width:180px;
+    background:white;
+    border-width:1px;
+    border-style: groove;
+    border-color: #ebe5e5;
+    border-radius: 8px;
+    flex-direction: column;
+    margin-right: 20px;
+    /* box-shadow: 0px 2px 1px grey; */
+    
+}
+.closingcardname
+{
+    display: flex;
+
+    height:50px;
+    width:180px;
+    align-items:center;
+    justify-content: center;
+    color: white;
+    background-color:var(--base-color);
+    border-top-left-radius:8px;
+    border-top-right-radius:8px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.closing-btn{
+    display: flex;
+    justify-content: center;
+    width: 65px;
+    border-radius:8px;
+    align-self: center;
+    margin-top: 30px;
+}
+
+.closing-content{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.closing-content::first-child{
+    margin-top: 10px;
+}
+
+/*---Form---*/
+.form-container{
+    display: flex;
+    border-color: #ebe5e5;
+    border-style: groove;
+    border-width: 1px;
+    margin-top: 10px;
+    border-radius: 8px;
+    padding: 20px;
+    flex-direction: column;
+}
+.form-holder{
+    display: flex;
+    flex-direction: row;
+    /* background-color: red; */
+    flex-wrap: wrap;
+}
+.form-educational{
+    display: flex;
+    flex-direction: column;
+    /* background-color: blanchedalmond; */
+    width: 40%;
+}
+.form-personal{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10;
+    /* background-color: rgb(231, 142, 9); */
+    width: 40%;
+    margin-left: 10%;
+}
+.find-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end
+}
+
+
+/*--------------------list page style sets-------------------- */
+
+.middle-container-list{
+    display: flex;
+    flex-direction: column;
+    margin-left: var(--margin-list);
+    margin-right: var(--margin-list);
+    padding: 2%;
+    border-style: groove;
+    border-radius: 8px;
+    border-width: 1px;
+    margin-top: 50px;
+}
+.closing-scroll-list
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.closingcards-list 
+{
+    display:flex;
+    height:200px;
+    width:100%;
+    background:white;
+    border-width:1px;
+    border-style: groove;
+    border-color: #ebe5e5;
+    border-radius: 8px;
+    flex-direction: column;
+    margin-bottom: 20px;
+    /* box-shadow: 0px 2px 1px grey; */
+    
+}
+.closingcardname-list
+{
+    display: flex;
+    height:50px;
+    /* width:; */
+    align-items:center;
+    justify-content: center;
+    color: white;
+    background-color:var(--base-color);
+    border-top-left-radius:8px;
+    border-top-right-radius:8px;
+    font-size: large;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.closing-btn-list{
+    display: flex;
+    justify-content: center;
+    width: 65px;
+    border-radius:8px;
+    align-self: flex-end;
+    margin: 20px;
+}
